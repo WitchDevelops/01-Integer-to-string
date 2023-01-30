@@ -81,3 +81,16 @@ function divide(string, divideBy) {
 
 divide("10", "2");
 
+function multiply(string, multiplyBy) {
+    let number1 = string*1;
+    let number2 = multiplyBy*1;
+
+    if (typeof string == "string" && typeof multiplyBy == "string") {
+         let resultMultiply = number1 * number2;
+        return resultMultiply;
+    } else {
+        console.log("Please declare both variables using string syntax.");
+    }
+}
+
+multiply("10", "2");
