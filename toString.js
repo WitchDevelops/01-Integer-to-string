@@ -1,3 +1,4 @@
+// INSTRUCTIONS
 // Realise long arithmetic on strings without usage bigInt and libraries for arithmetic
 // It should work as string functions
 // (you can avoid negative numbers, all numbers will be positive and integer)
@@ -6,36 +7,8 @@
 // String.divide(string) => string
 // String.multiple(string) => string
 
-// function convertString() {
-//     let a = "100";
-//     let b = parseInt(a);
-//     console.log("Integer value is" + b);
-// }
-// convertString();
-
-// //this works
-
-
-// ///////////////////////////////////////
-// function convertString(string) {
-//     let number = parseInt(string);
-//     console.log("Integer value is " + number);
-// }
-// convertString("55");
-
-// //this works too
-
-///////////////////////////////////////
-//now without parseInt
-
-// function convertToString(string) {
-//     let number = string*1;
-//     console.log(number);
-// }
-//convertToString("200");
-
-/////////////////////////////
-//try some math
+// MY SOLUTION
+// I wrote 4 functions: add(), subtract(), divide() and multiply(). Each of them takes two parameters that should be declared as strings.
 
 function add(string, addHowMuch) {
     let number1 = string*1;
