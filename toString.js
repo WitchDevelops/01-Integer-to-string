@@ -22,7 +22,7 @@ function add(string, addHowMuch) {
     }
 }
 
-add("100", "5");
+//add("100", "5");
 
 //this works! Now do the same for other math operations.
 
@@ -38,7 +38,7 @@ function subtract(string, subtractHowMuch) {
     }
 }
 
-subtract("10", "-2");
+//subtract("10", "-2");
 
 function divide(string, divideBy) {
     let number1 = string*1;
@@ -52,7 +52,7 @@ function divide(string, divideBy) {
     }
 }
 
-divide("10", "2");
+//divide("10", "2");
 
 function multiply(string, multiplyBy) {
     let number1 = string*1;
@@ -66,4 +66,4 @@ function multiply(string, multiplyBy) {
     }
 }
 
-multiply("10", "2");
+//multiply("10", "2");
